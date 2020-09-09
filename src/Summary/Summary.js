@@ -1,5 +1,6 @@
 import React from 'react';
 import Cart from './Cart';
+import Total from './Total';
 
 export default function Summary(props){
 
@@ -11,6 +12,12 @@ export default function Summary(props){
                 features = {props.features}
                 currency = {props.currency}
             />
+
+            <Total  
+                currency = {props.currency}
+                selected = {props.selected}
+            /> 
       </section>
+      
       )
 }

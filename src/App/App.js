@@ -1,10 +1,10 @@
 import React from 'react';
-import store from './store.js';
+import store from '../store.js';
 import './App.css';
-import Header from './Header'
-import MainForm from './MainForm'
-import Summary from './Summary'
-import Total from './Total'
+import Header from '../Header/Header'
+import MainForm from '../Features/MainForm'
+import Summary from '../Summary/Summary'
+import Total from '../Summary/Total'
 
 
 
@@ -65,11 +65,6 @@ class App extends React.Component{
                 features = {features}
                 currency = {USCurrencyFormat}
             />
-
-            <Total  
-                currency = {USCurrencyFormat}
-                selected = {selected}
-                />
           </main>
         </div>
       );
