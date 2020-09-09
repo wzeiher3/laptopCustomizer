@@ -2,7 +2,7 @@ import React from 'react';
 import Cart from './Cart';
 import Total from './Total';
 
-export default function Summary(props){
+export default function MainSummary(props){
 
       return (
         <section className="main__summary">

@@ -3,7 +3,7 @@ import store from '../store.js';
 import './App.css';
 import Header from '../Header/Header'
 import MainForm from '../Features/MainForm'
-import Summary from '../Summary/Summary'
+import MainSummary from '../MainSummary/MainSummary'
 
 
 
@@ -60,7 +60,7 @@ class App extends React.Component{
                 update = {this.updateFeature}
                 currency = {USCurrencyFormat}
             />
-            <Summary 
+            <MainSummary 
                 selected = {selected}
                 features = {features}
                 currency = {USCurrencyFormat}
