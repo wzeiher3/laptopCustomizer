@@ -4,7 +4,7 @@ import './App.css';
 import Header from '../Header/Header'
 import MainForm from '../Features/MainForm'
 import Summary from '../Summary/Summary'
-import Total from '../Summary/Total'
+
 
 
 
