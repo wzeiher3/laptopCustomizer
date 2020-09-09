@@ -2,7 +2,7 @@ import React from 'react';
 import store from '../store.js';
 import './App.css';
 import Header from '../Header/Header'
-import MainForm from '../Features/MainForm'
+import MainForm from '../MainForm/MainForm'
 import MainSummary from '../MainSummary/MainSummary'
 
 

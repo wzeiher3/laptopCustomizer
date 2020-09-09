@@ -1,5 +1,5 @@
 import React from 'react';
-import FeatureItems from './FeatureItems'
+import FeatureItems from '../Features/FeatureItems'
 
 
 export default function MainForm(props){
